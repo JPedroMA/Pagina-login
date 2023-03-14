@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+/*font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #530296 16.62%, #131316 85.61%);
+}
+
+.card-login {
+    background: linear-gradient(68.15deg, #1f0733 16.62%, #3b3b3b 85.61%);
+}
+
+.card-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #d1c1c6;
+    
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botao-logar {
+    background-color: #d1c1c6;
+    width: 180px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4e5faa;
+}
