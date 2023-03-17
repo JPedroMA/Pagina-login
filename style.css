@@ -5,6 +5,8 @@ font-family: 'Sarala', sans-serif; */
 
 body {
     margin: 0;
+    background: linear-gradient(68.15deg, #530296 16.62%, #131316 85.61%);
+    background-attachment: fixed;
 }
 
 .conteudo-principal {
@@ -13,7 +15,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(68.15deg, #530296 16.62%, #131316 85.61%);
 }
 
 .conteudo-esquerda {
